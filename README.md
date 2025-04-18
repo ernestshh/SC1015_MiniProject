@@ -3,7 +3,7 @@
 ## About
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on Singapore's HDB Resale Flat Prices from [data.gov.sg](https://data.gov.sg/collections/189/view) repository.
 
-For detailed walkthrough of the code, [View the full Jupyter Notebook here](https://github.com/your-username/your-repo-name/blob/main/SC1015_Project_Final.ipynb)
+For detailed walkthrough of the code, [View the full Jupyter Notebook here](https://github.com/ernestshh/SC1015_MiniProject/blob/main/SC1015%20Mini%20Project.ipynb)
 
 
 ## Contributors
@@ -35,6 +35,8 @@ For detailed walkthrough of the code, [View the full Jupyter Notebook here](http
 ## Conclusion
 - We were able to develop a predictive model for HDB Resale prices using a Random Forest Regression model which performed significantly better than Multivariate Linear Regression
 - We then successfully implemented a Random Forest Classification model that assessed the fairness of our price predictions
+
+## Findings
 - Floor area and remaining lease years were the strongest predictors of resale price
 - About 78% of homebuyers pay a fair price for their HDB resale flat, suggesting that the real estate market is relatively efficient
 - According to our model, the mean absolute difference between predicted and actual resale price was $27,000
@@ -42,9 +44,11 @@ For detailed walkthrough of the code, [View the full Jupyter Notebook here](http
 
 
 ## What did we learn from this project?
+- Handling categorical data using One-Hot Encoding
 - Random Forest Regression and Classification
-- Collaborating using GitHub
 - Concepts about Precision, Recall, and F1 Score
+- Identifying overfitting by evaluating train-test performance gaps
+- Collaborating using GitHub
 
 ## References
 - https://data.gov.sg/collections/189/view
@@ -52,3 +56,5 @@ For detailed walkthrough of the code, [View the full Jupyter Notebook here](http
 - https://www.geeksforgeeks.org/random-forest-regression-in-python/
 - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
 - https://create.microsoft.com/en-us/template/light-modernist-design-fd6c6e3e-ccdc-4ba4-b6a2-3dbf5a4b5e68
+- https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall
+
