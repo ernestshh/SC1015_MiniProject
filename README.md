@@ -32,6 +32,14 @@ For detailed walkthrough of the code, [View the full Jupyter Notebook here](http
 
 - Random Forest Classifier
 
+## Evaluation Metrics
+
+To evaluate the performance of our models, we used:
+
+- **Root Mean Squared Error (RMSE)**: Measures the average magnitude of prediction errors in the same unit as the target variable. Lower RMSE indicates better fit.
+- **R² Score (Explained Variance)**: Indicates how much of the variation in resale prices can be explained by the model. Ranges from 0 to 1.
+- **Precision, Recall, and F1 Score** (for classification): Used to assess the ability of the classifier to correctly identify whether a resale price is “fair” or “unfair”.
+
 ## Conclusion
 - We were able to develop a predictive model for HDB Resale prices using a Random Forest Regression model which performed significantly better than Multivariate Linear Regression
 - We then successfully implemented a Random Forest Classification model that assessed the fairness of our price predictions
@@ -42,13 +50,18 @@ For detailed walkthrough of the code, [View the full Jupyter Notebook here](http
 - According to our model, the mean absolute difference between predicted and actual resale price was $27,000
 - Certain towns such as Bukit Merah and Queenstown were shown to have a noticeable impact on resale prices, likely due to their premium location
 
-
 ## What did we learn from this project?
 - Handling categorical data using One-Hot Encoding
 - Random Forest Regression and Classification
 - Concepts about Precision, Recall, and F1 Score
 - Identifying overfitting by evaluating train-test performance gaps
 - Collaborating using GitHub
+
+## Future Improvements
+
+- Include more granular location data such as postal sectors or distance to MRT  
+- Incorporate economic indicators like interest rates or inflation
+- Possibly implement other Machine Learning like XGBoost to improve model performance
 
 ## References
 - https://data.gov.sg/collections/189/view
