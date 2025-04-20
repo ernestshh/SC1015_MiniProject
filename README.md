@@ -23,14 +23,32 @@ For detailed walkthrough of the code, [View the full Jupyter Notebook here](http
 
 - Are we able to determine if the price of a HDB resale flat is fair?
 
+## Data Cleaning and Extraction
+-  Dropping Irrelevant Columns 
+- Formatting Remaining Lease  
+-  Creating Price per Square Meter (PSM) 
+-  One-Hot Encoding of Categorical Variables
+
+
+## Exploratory Data Analysis
+We explored the relationship between predictors and the target variable (Resale Price):
+
+- **Overview of Resale Flat Distribution (Univariate Analysis):**
+  - Categorical and numerical distributions
+
+- **Bivariate Analysis with Respect to Resale Price:**
+  - Comparisons between individual predictors and Resale Price
+  - Correlation Matrix to better visualise the correlation coefficients of variables with Resale Price
+
+We did this using Histograms, Box and Whisker Plots, Scatter plots and a Correlation Matrix Heat Map
 
 ## Models Used
 
-- **Linear Regression**: Explore the linear relationship of each feature with resale price.
-  
-- **Random Forest Regression**: Able to capture non-linear relationships in the data, reveal feature importance and predicts resale price with higher accuracy than linear regression. 
+Linear Regression: Explore the linear relationship of each feature with resale price.
 
-- **Random Forest Classifier**: Determine whether the resale price is "fair" or "unfair" based on predefined thresholds, enhancing decision-making for homebuyers and sellers.
+Random Forest Regression: Able to capture non-linear relationships in the data, reveal feature importance and predict resale price with higher accuracy than linear regression.
+
+Random Forest Classifier: Determine whether the resale price is "fair" or "unfair" based on predefined thresholds, enhancing decision-making for homebuyers and sellers.
 
 ## Evaluation Metrics
 
@@ -70,4 +88,5 @@ To evaluate the performance of our models, we used:
 - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
 - https://create.microsoft.com/en-us/template/light-modernist-design-fd6c6e3e-ccdc-4ba4-b6a2-3dbf5a4b5e68
 - https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall
-
+- https://create.microsoft.com/en-us/template/light-modernist-design-fd6c6e3e-ccdc-4ba4-b6a2-3dbf5a4b5e68
+- https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall
