@@ -28,7 +28,7 @@ For detailed walkthrough of the code, [View the full Jupyter Notebook here](http
 
 - **Linear Regression**: Explore the linear relationship of each feature with resale price.
   
-- **Random Forest Regression**: Able to capture non-linear relationships in the data and predicts resale price with higher accuracy than linear regression. 
+- **Random Forest Regression**: Able to capture non-linear relationships in the data, reveal feature importance and predicts resale price with higher accuracy than linear regression. 
 
 - **Random Forest Classifier**: Determine whether the resale price is "fair" or "unfair" based on predefined thresholds, enhancing decision-making for homebuyers and sellers.
 
