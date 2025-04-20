@@ -26,11 +26,11 @@ For detailed walkthrough of the code, [View the full Jupyter Notebook here](http
 
 ## Models Used
 
-- Linear Regression
+- **Linear Regression**: Explore the linear relationship of each feature with resale price
+  
+- **Random Forest Regression**: Able to capture non-linear relationships in the data and provides high accuracy in predicting resale prices by averaging multiple decision trees.
 
-- Random Forest Regression
-
-- Random Forest Classifier
+- **Random Forest Classifier**: used to determine whether the resale price is "fair" or "unfair" based on predefined thresholds, enhancing decision-making for homebuyers and sellers.
 
 ## Evaluation Metrics
 
